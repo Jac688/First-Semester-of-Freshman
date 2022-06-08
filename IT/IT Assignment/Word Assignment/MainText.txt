@@ -1,0 +1,49 @@
+Abstract
+
+Microsoft Word is a licensed commercial word processor. It is a part of the Microsoft Office Suite. Microsoft Word is currently the most common word processor on the market.
+Microsoft Word is a popular word-processing program used primarily for creating documents such as letters, brochures, learning activities, tests, quizzes and students' assignments, etc. There are many simple but useful features available in Microsoft Word.
+
+1 Introduction
+
+Microsoft Word is a word processor developed by Microsoft. It was first released in 1983 under the name Multi-Tool Word for Xenix systems. Subsequent versions were later written for several other platforms including IBM PCs running DOS (1983), Apple Macintosh running Mac OS (1985), AT&T Unix PC (1985), Atari ST (1988), OS/2 (1989), Microsoft Windows (1989) and SCO Unix (1994). Commercial versions of Word are licensed as a standalone product or as a component of Microsoft Office, Windows RT or the discontinued Microsoft Works suite. Microsoft Word Viewer and Office Online are Freeware editions of Word with limited fetures.
+
+2 Main features
+
+Word 2010 allows more customization of the Ribbon, adds a Backstage view for file management, has improved document navigation, allows creation and embedding of screenshots, and integrates with Word Web App.
+
+2.1 Insert a table
+
+
+
+2.2 Insert equations
+
+Word offers the function of inserting a mathematic formula in an elegant representation.
+We can see it inline like this
+
+
+
+2.3 Insert a figure
+
+
+
+2.4 Cross Reference
+
+Table is for the information of enrollment and Figure shows the new campus of United International College.
+
+2.5 Insert a list
+
+There are the following programmes in DST:
+Applied Psychology
+Computer Science and Technology
+Environmental Science
+Financial Mathematics
+Food Science and Technology
+Statistics
+
+3 Microsoft Office Specialist Certification
+
+Demonstrate that you have the skills needed to get the most out of Office by earning a Microsoft Office Specialist (MOS) certification in a specific Office program. Holding a MOS certification can earn an entry-level business employee as much as $16,000 more in annual salary than uncertified peers. Please refer to the Microsoft company website for reference.
+
+4 Conclusions
+
+Though we have introduced only the fundamentals in Word, we can see that this typesetting system is very powerful.

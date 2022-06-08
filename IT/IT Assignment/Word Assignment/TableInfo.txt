@@ -1,0 +1,4 @@
+Student Enrollment      Full-time Programme      Part-time Programme
+Undergraduates          9,152                    487
+Postgraduates           1,107                    1,539
+Total                   10,259                   2,026			

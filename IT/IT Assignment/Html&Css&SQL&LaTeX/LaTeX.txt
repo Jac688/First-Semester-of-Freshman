@@ -1,0 +1,147 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\title{introduction to LaTeX}
+\author{Bill Gates}
+\date{November 2007}
+\begin{document}
+    \maketitle
+    \begin{abstract}
+This article introduces the main features in LaTeX, including creating an
+abstract, generating sections and subsections, composing mathematic
+formulae, inserting ordered and unordered lists, inserting tables and
+figures, and establish citations and references automatically.
+\end{abstract}
+\section{Main features}
+
+Donald Knuth invented TeX in 1976 \cite{Donald 1984}and wrote a book on TeX on 1984. Based on
+TeX, Lamport Leslie created LaTeX and published a book on LaTeX in 1986\cite{Lamport 1986}. In
+this section, we mainly introduce some fundamentals in LaTeX.
+\subsection{Insert a table}
+There are following kinds of table format:
+\begin{itemize}
+\item Table with borders\\
+(see Table \ref{TableHV})
+\begin{table}[h]
+\centering
+ \begin{tabular}{|l|c|c|r|}
+ \hline
+ name & major & year & grade \\
+ \hline
+ John & Computer & 3 & A \\
+ \hline
+ Peter & Finance & 4 & A- \\
+ \hline
+ Tony & Physics & 2 & B \\
+ \hline
+ \end{tabular}
+\caption{Table with borders}
+\label{TableHV}
+\end{table}
+
+
+\item Table with no vertical lines\\
+(see Table \ref{TableH})
+
+\begin{table}[h]
+ \centering
+ \begin{tabular}{lccr}
+ \hline
+ name & major & year & grade \\
+ \hline
+ John & Computer & 3 & A \\
+ \hline
+ Peter & Finance & 4 & A- \\
+ \hline
+ Tony & Physics & 2 & B \\
+ \hline
+ \end{tabular}
+\caption{Table with no vertical lines}
+\label{TableH}
+\end{table}
+
+\item Table with no horizonal lines\\
+(see Table \ref{TableV})
+
+\begin{table}[h]
+ \centering
+ \begin{tabular}{|l|c|c|r|}
+ name & major & year & grade \\
+ John & Computer & 3 & A \\
+ Peter & Finance & 4 & A- \\
+ Tony & Physics & 2 & B \\
+ \end{tabular}
+\caption{Table with borders}
+\label{TableV}
+\end{table}
+
+\item Table with no borders\\
+(see Table \ref{Table})
+
+\begin{table}[h]
+ \centering
+ \begin{tabular}{lccr}
+ name & major & year & grade \\
+ John & Computer & 3 & A \\
+ Peter & Finance & 4 & A- \\
+ Tony & Physics & 2 & B \\
+ \end{tabular}
+\caption{Table with borders}
+\label{Table}
+\end{table}
+\end{itemize}
+\subsection{Insert a mathematic formula}
+Following mathematic environments are most commonly used:
+\begin{enumerate}
+\item Power and indices examples.\\
+$x^3$, $x_3$, $x^{3n}$, $x_{3n}$
+\item Roots\\
+$\sqrt[2]{x^2 + y^2}$
+\item Sum and over brace\\
+$\sum_{i=1}^{n}x_i$
+\[ \sum_{i=1}^{n}x_i \]
+\[\overbrace{x_1+x_2\cdots + x_n}^{n}\]
+\item Fractions \\
+$\frac{x-1}{x-2}$
+\[ \frac{\frac{x-1}{y-1}+\frac{x+1}{y+1}}{\sum_{i=1}^{n}x_i}\]
+\item Matrices \\
+$X = \left(
+\begin{array}{c c c}
+1 & 0 & 1\\
+1 & 1 & 1\\
+0 & 0 & 0 \\
+\end{array}
+\right)$
+\item Equations \\
+\begin{equation}
+\begin{split}
+z &= (x+y)^2\\
+  &= x^2+2xy+y^2\\
+\end{split}
+\end{equation}
+
+\begin{displaymath}
+f(x) = \left\{
+\begin{array}{rr}
+x^2 &\mbox{ if $x<0$} \\
+x^3 &\mbox{ otherwise}
+\end{array} \right.
+\end{displaymath}
+\end{enumerate}
+\subsection{Insert a figure}
+Figure \ref{Sample Picture} is a sample picture.
+\begin{figure}[h]
+\centering
+\includegraphics[width=70mm,height=70mm]{forest.jpg}
+\caption{Sample Picture}
+\label{Sample Picture}
+\end{figure}
+\section{Conclusion}
+
+Though we have introduced only the fundamentals in LaTeX, we can see that
+this typesetting system is very powerful.
+\begin{thebibliography}{99}
+\bibitem{Donald 1984} Donald Knuth, The TeX book, Massachusetts: Addison-Wesley, 1984
+\bibitem{Lamport 1986} Lamport Leslie, LaTeX: A Document Preparation System. Addison-Wesley, 1986
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,31 @@
+1st Reference:
+
+Book: A History of the Personal Computer: The People and the Technology (1st ed.)
+
+Author: A. Allen, Roy
+
+Publish year: October 2001
+
+Publisher: Allan Publishing
+
+========================================
+2nd Reference
+
+Article Title: Microsoft Office 2010: Office 2010's Backstage View
+
+Author: Mendelson, Edward
+
+Publish year: May 11, 2010
+
+Periodical: PC Magazine
+
+========================================
+3rd Reference
+
+Article Title: Microsoft Office 2010: The Word on Word
+
+Author: Mendelson, Edward
+
+Publish year: May 11, 2010
+
+Periodical: PC Magazine

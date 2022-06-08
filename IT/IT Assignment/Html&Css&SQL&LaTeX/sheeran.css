@@ -1,0 +1,33 @@
+body{
+	 background-image:url("bg.jpg")
+}
+table{background-color:white;
+      border-color:#E5DAA0;
+      border-width:2px;
+	  border-style:solid;
+	  margin-left:auto;
+	  margin-right:auto;
+	  margin-top:100px；}
+      
+.mym{background-color:#333}
+.highlight{color:#4E92D8;}
+a{color:#747474;}
+a:hover{/*The text turns gold when the mouse hovers overit:*/
+        color:#E5DAA0;
+		/*The text turns gold when the mouse hovers overit:*/
+		font-weight:bold;}
+.xsj{padding-left:50px;
+     padding-right:50px;
+	 padding-bottom:50px;}
+.mym{text-align:center;
+     height:90px;}
+.lxt{text-align:center;
+     padding-top:30px;}
+ol{padding-left:50px;
+   padding-right:50px;}
+li{margin:20px;}
+
+
+
+
+		   
